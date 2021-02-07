@@ -4,8 +4,8 @@ document.addEventListener('deviceready', onDeviceReady, false);
 // fonction de callback de l'évènement deviceready
 function onDeviceReady(){
 
-    // on utilise le UI framework Framework7 (v3) - framework7.io
-    // **********************************************************
+    // on utilise le UI framework Framework7  - framework7.io
+    // ******************************************************
 
     // initialisation de Framework7
     var f7App = new Framework7({

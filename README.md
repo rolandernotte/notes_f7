@@ -1,29 +1,12 @@
-# Cordova Framework7-v5 Starter
+# Notes F7
 
-## Cequoissa ?
+Exemple d'app mobile Cordova/F7
 
-*Starter pour un projet Cordova Framework7-v5*
+Utilisation de l'API HTML5 localStorage
 
-### Apache Cordova
+# utilisation
 
-Permet la cr√©ation d'applications mobiles avec HTML, CSS & JS
-voir [Apache Cordova](https://cordova.apache.org/)
+TÈlÈcharger et dÈzipper (Ètape 1 dans branche Step1, Ètape 2 dans branche Step2,... Ètat actuel dans branche master)
 
-### Framework7
-
-Framework HTML qui facilite la r√©alisation de l'interface utilisateur
-voir le [site officiel de Framework7](https://framework7.io/)
-
-On utilise ici la version 5 de Framework7 [documentation v5 de Framework7](http://framework7.io/docs)
-
-## Utilisation
-
-1. T√©l√©charger le zip, d√©zipper et renommer le dossier racine selon le nom de votre projet
-2. Personnaliser `config.xml`
-	* Attribut `id` de l'√©l√©ment `widget`
-	* El√©ments `name`, `description`, `author`
-	* ...
-3. Ajouter les plugins n√©cessaires (`cordova plugin add plugin-name`)
-4. Editer les fichiers `www/index.html`, `www/js/index.js` et `www/css/index.css`
-5. ... (voir [Apache Cordova](https://cordova.apache.org/) et [Framework7](https://framework7.io/docs))
-
+## branche step1
+Ajout possible de notes et sauvegarde dans localStorage

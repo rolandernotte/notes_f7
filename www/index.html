@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme pour statusbar (Android uniquement) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Titre de l'application -->
+    <title>Notes</title>
+    <!-- Chemin vers le CSS de Framework7-->
+    <link rel="stylesheet" href="lib/framework7/css/framework7-bundle.min.css">
+    <!-- Chemin vers le CSS de l'app -->
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <!-- Elément racine de l'app -->
+    <div id="app">
+
+      <!-- Vue principale (doit avoir la classe view-main -->
+      <div class="view view-main">
+        <!-- Page initiale, "data-name" contient le nom de la page -->
+        <div data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <div class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+              <div class="title">Notes</div>
+            </div>
+          </div>
+
+          <!-- Contenu de page 'scrollable' -->
+          <div class="page-content">
+           
+            <form class="list no-hairlines-md" id="addForm">
+              <ul>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-input-wrap">
+                      <input type="text" name="title" placeholder="Saisir un titre" />
+                      <span class="input-clear-button"></span>
+                    </div>
+                  </div>
+                </li>
+                <li class="item-content item-input">
+                  <div class="item-inner">
+                    <div class="item-input-wrap">
+                      <input type="text" name="memo" placeholder="Saisir un mémo" />
+                      <span class="input-clear-button"></span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </form>
+
+            <div class="block">
+              <a href="#" class="button convert-form-to-data">Ajouter</a>
+            </div>
+
+            <div class="block-title" id="noMemo">
+              Aucun mémo
+            </div>
+
+            <div class="block">
+              <div class="list links-list">
+                <ul id="memoList">
+                  <li class="template" style="display:none">
+                    <a href="#">
+                       
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+	
+	  <!-- Phantom Cordova library -->
+	  <script type="text/javascript" src="cordova.js"></script>
+    <!-- jQuery -->
+    <script type="text/javascript" src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7-bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>

@@ -10,3 +10,6 @@ Télécharger et dézipper (étape 1 dans branche Step1, étape 2 dans branche S
 
 ## branche step1
 Ajout possible de notes et sauvegarde dans localStorage
+
+## branche step3
+Page de détail et meilleure structuration du code

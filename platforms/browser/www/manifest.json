@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Notes",
+  "short_name": "Notes",
+  "version": "be.truc.noteapp",
+  "description": "Une simple application de démo de type mémo",
+  "author": "Truc machin",
+  "icons": [],
+  "start_url": "index.html",
+  "theme_color": "#2196f3"
+}

@@ -1,5 +1,5 @@
 {
-  "name": "io.cordova.hellocordova",
+  "name": "helloworld",
   "displayName": "HelloCordova",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -12,9 +12,11 @@
   ],
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-browser": "^6.0.0"
+  },
   "devDependencies": {
-    "cordova-browser": "^6.0.0",
-    "cordova-plugin-whitelist": "^1.3.5"
+    "cordova-plugin-whitelist": "^1.3.4"
   },
   "cordova": {
     "plugins": {
